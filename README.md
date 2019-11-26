@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Wikipedia" src="https://res.cloudinary.com/dtifsqadc/image/upload/v1574729446/Wikipedia_dljaei.svg" />
+    <img alt="Wikipedia" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2010/05/wikipedia1.png" />
     <br>
 </h1>
 
