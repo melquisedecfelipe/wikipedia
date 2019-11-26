@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 60px 60px 0 60px;
+  padding: 24px 60px 0;
   position: fixed;
   right: 0;
+
+  > img {
+    float: right;
+  }
 
   > h2 {
     color: #2e2e2e;
@@ -11,6 +15,13 @@ export const Container = styled.div`
     line-height: 42px;
     font-weight: bold;
     font-family: 'PT Serif';
+    margin-top: 80px;
+  }
+
+  > small {
+    color: #2e2e2e;
+    font-size: 12px;
+    line-height: 15px;
   }
 
   > h5 {
@@ -46,7 +57,7 @@ export const Container = styled.div`
     }
   }
 
-  > .members {
+  > .image {
     margin-top: 80px;
   }
 
