@@ -13,28 +13,55 @@ import Queens from '../../assets/queens.png';
 import Troy from '../../assets/members/troy-van-leeuwen.png';
 
 export default function Main() {
-  const data = [
-    {
-      img: Josh,
-      name: 'Josh Homme'
+  const data = {
+    title: 'Queens of the Stone Age',
+    origin: {
+      name: 'Origin',
+      description: 'Palm Desert, California, U.S.'
     },
-    {
-      img: Troy,
-      name: 'Troy Van Leeuwen'
+    year: {
+      name: 'Years active',
+      description: '1996 - present'
     },
-    {
-      img: Dean,
-      name: 'Dean Fertita'
+    genres: {
+      name: 'Genres',
+      description: [
+        'Alternative Rock',
+        'Stoner Rock',
+        'Hard Rock',
+        'Alternative Metal'
+      ]
     },
-    {
-      img: Michael,
-      name: 'Michael Schuman'
+    info: {
+      name: 'Website',
+      description: 'qotsa.com'
     },
-    {
-      img: Jon,
-      name: 'Jon Theodore'
+    image: {
+      name: 'Members',
+      description: [
+        {
+          img: Josh,
+          name: 'Josh Homme'
+        },
+        {
+          img: Troy,
+          name: 'Troy Van Leeuwen'
+        },
+        {
+          img: Dean,
+          name: 'Dean Fertita'
+        },
+        {
+          img: Michael,
+          name: 'Michael Schuman'
+        },
+        {
+          img: Jon,
+          name: 'Jon Theodore'
+        }
+      ]
     }
-  ];
+  };
 
   return (
     <Container>
