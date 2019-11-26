@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <Container>
       <Menu />
-      {window.location.pathname !== '/like-clockwork' ? <Submenu /> : null}
+      <Submenu />
     </Container>
   );
 }

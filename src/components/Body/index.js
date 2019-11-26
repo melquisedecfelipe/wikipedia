@@ -11,8 +11,7 @@ import Era from '../../assets/discography/5.png';
 import Like from '../../assets/discography/6.png';
 import Villains from '../../assets/discography/7.png';
 
-export default function Content(props) {
-  const { imagem } = props;
+export default function Content({ imagem }) {
   const data = [
     {
       img: Queens,

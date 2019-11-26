@@ -6,4 +6,6 @@ export const Container = styled.div`
   left: 0;
   height: 100%;
   width: 192px;
+  display: grid;
+  grid-template-rows: 400px 1fr;
 `;
