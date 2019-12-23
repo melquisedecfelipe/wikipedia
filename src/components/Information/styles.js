@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 24px 60px 0;
@@ -14,7 +14,7 @@ export const Container = styled.div`
     font-size: 32px;
     line-height: 42px;
     font-weight: bold;
-    font-family: 'PT Serif';
+    font-family: "PT Serif";
     margin-top: 80px;
   }
 
@@ -58,7 +58,7 @@ export const Container = styled.div`
   }
 
   > .image {
-    margin-top: 80px;
+    margin-top: 70px;
   }
 
   > section {
